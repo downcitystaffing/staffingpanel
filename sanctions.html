@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DownCity - Sanctions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #3498db;
+            padding: 20px;
+            color: white;
+            height: 100vh;
+            position: fixed;
+        }
+
+        .sidebar h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 15px;
+        }
+
+        .sidebar ul li button {
+            width: 100%;
+            padding: 10px;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .sidebar ul li button:hover {
+            background-color: #1f6690;
+        }
+
+        .main-content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+
+        .main-content h1 {
+            color: #3498db;
+        }
+
+        .settings-section {
+            margin-top: 30px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .settings-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .setting-item {
+            margin-bottom: 15px;
+        }
+
+        .setting-item label {
+            font-size: 1.1em;
+        }
+
+        .setting-item input {
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;  
+            margin-bottom: 20px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>DownCity Staff</h2>
+            <ul>
+                <li><button class="btn" onclick="window.location.href='staff.html';">Tableau De Bord</button></li>
+                <li><button class="btn" onclick="window.location.href='sanctions.html';">Sanctions</button></li>
+                <li><button class="btn" onclick="window.location.href='gestionj.html';">Gérer les joueurs</button></li>
+                <li><button class="btn" onclick="window.location.href='params.html';">Paramètres</button></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h1>Sanctions</h1>
+
+            <div class="settings-section">
+                <h2>Sanctions IG & Discord</h2>
+                <div class="setting-item">
+                    <li><strong>No Fear RP :</strong> Avertissement + 20 Minutes de Jail</li>
+                    <li><strong>No Pain RP :</strong> Avertissement + 20 Minutes de Jail</li>
+                    <li><strong>Chicken-Run :</strong> 20 Minutes de Jail</li>
+                    <li><strong>Powergaming :</strong> Avertissement + 1H de Jail</li>
+                    <li><strong>Metagaming :</strong> Avertissement + 1H de Jail</li>
+                    <li><strong>Carkill :</strong> Avertissement + 20 Minutes de Jail</li>
+                    <li><strong>Coma :</strong> Avertissement + 1H de Jail</li>
+                    <li><strong>Freekill :</strong> Avertissement + 45 Minutes de Jail</li>
+                    <li><strong>Courtoisie :</strong> Avertissement + 10 Minutes de Jail</li>
+                    <li><strong>Cheat :</strong> Demande de bannissement permanent + Jail 24H</li>
+                    <li><strong>Troll Abusif :</strong> Demande de bannissement permanent + Jail 24H</li>
+                    <li><strong>Personnage Non-RP :</strong> Demande de bannissement permanent + Jail 24H + Avertissement</li>
+                    <p><strong>Rappel :</strong> Vous devez en tout premier mettre un avertissement mais si récidive peu de temps après l'avertissement (warn) vous pouvez appliquer la sanction de la JAIL (Voir temps au dessus).</p>
+                </div>
+            </div>
+
+            <button class="btn" onclick="window.location.href='secret.html';">Cliques-Moi !</button>
+        </div>
+    </div>
+    
+</body>
+</html>
