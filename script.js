@@ -6,7 +6,7 @@ const users = [
     },
     {
         "username": "Keyroz",
-        "password": "Keyroz123",
+        "password": "a7JkL@9p",
         "isStaff": true
     },
     {
