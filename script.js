@@ -26,7 +26,7 @@ const users = [
     },
     {
         "username": "Obscurop",
-        "password": "Obscurop123",
+        "password": "Martin5510",
         "isStaff": true
     },
     {
