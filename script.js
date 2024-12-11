@@ -29,7 +29,7 @@ const users = [
         "password": "Martin5510",
         "isStaff": true
     },
-        {
+    {
         "username": "Tigrou",
         "password": "Tigrou123",
         "isStaff": true
