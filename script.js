@@ -29,6 +29,11 @@ const users = [
         "password": "Martin5510",
         "isStaff": true
     },
+        {
+        "username": "Tigrou",
+        "password": "Dofmine2@",
+        "isStaff": true
+    },
     {
         "username": "Keshmane",
         "password": "Keshmane123",
