@@ -53,7 +53,7 @@ let joueurs = JSON.parse(localStorage.getItem('joueurs')) || [
     { username: "Leo Marquez", igName: "LeoMarquez", notes: "" },
     { username: "Bloxy Smith", igName: "Bloxy5_", notes: "Banni Permanent" },
     { username: "Jules Truvaux", igName: "JulesTruvaux", notes: "" },
-    { username: "John Anderson", igName: "JohnAnderson", notes: "" },
+    { username: "John Anderson", igName: "H | Tigrou", notes: "Staff Helpeur" },
     { username: "Luis Parker", igName: "LuisParker", notes: "" },
     { username: "Bamakouy Poalu", igName: "Glazz", notes: "" },
     { username: "Geoffrey Pacha", igName: "M | Robocop", notes: "Staff Modérateur" },
